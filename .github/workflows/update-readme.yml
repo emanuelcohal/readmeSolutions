@@ -17,9 +17,9 @@ name: Checkout code
 name: Update README
         run: |
           cat docs/project/project-description.md > README.md
-          cat docs/project/gcp.md > pipeline.md
-          cat docs/project/gcp.md > README.md
-          cat gt2/README.md > README.md
+          cat docs/project/gcp.md >> pipeline.md
+          cat docs/project/gcp.md >> README.md
+          cat gt2/README.md >> README.md
           cat gt4/README.md >> README.md
           cat gt10/README.md >> README.md
           cat gt11/README.md >> README.md
