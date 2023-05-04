@@ -1,8 +1,8 @@
 name: Update README
-
 on:
   push:
-main
+  branches:
+    - main
   schedule:
 cron: '0 0 * * *' # Runs every day at midnight
 
@@ -16,7 +16,7 @@ name: Checkout code
 name: Update README
         run: |
           cat docs/project/project-description.md > README.md
-          cat docs/project/gcp.md >> pipeline.md
+          cat docs/project/gcp.md >> README.md
           cat docs/project/gcp.md >> README.md
           cat gt2/README.md >> README.md
           cat gt4/README.md >> README.md
