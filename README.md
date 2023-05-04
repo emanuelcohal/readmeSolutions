@@ -1,4 +1,3 @@
-# readmeSolutions
+# Generative Text
 
-
-never the same
+this is the main README.MD
