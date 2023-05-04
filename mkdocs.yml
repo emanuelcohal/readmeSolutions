@@ -1,0 +1,6 @@
+site_name: Generative Text
+nav:
+    - Home: index.md
+    - About: project-description.md
+    - Pipeline: pipeline.md
+theme: readthedocs
